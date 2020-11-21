@@ -9,12 +9,14 @@ theme:
 plugins:
   - search:
       lang: fr
+  - mkdocs-jupyter
 
 # Page tree
 nav:
-  - Home: index.md
+  - Acceuil: index.md
   - Module 1:
-    - Théorie: test.md
+    - Théorie: Module1.md
+    - Pratique: Module1_2.ipynb
 
 markdown_extensions:
   - admonition
