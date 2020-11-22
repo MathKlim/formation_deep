@@ -17,6 +17,17 @@ nav:
   - Module 1:
     - Théorie: Module1.md
     - Pratique: Module1_2.ipynb
+  - Module 2:
+    - Théorie: Module2.md
+    - Pratique: Module2_2.ipynb
+  # - Module 3:
+  #   - Théorie:
+  #   - Pratique:
+  # - Module 4:
+  #   - Théorie:
+  #   - Pratique:
+
+
 
 markdown_extensions:
   - admonition

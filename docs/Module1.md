@@ -1,4 +1,4 @@
-# **Module 1 : Introduction au deep learning, prise en main de Tensorflow et Keras**
+# Module 1 : Introduction au deep learning, prise en main de Tensorflow et Keras
 
 
 ## Préliminaires, notations et conventions
@@ -44,7 +44,7 @@ Il s'agit d'une cellule d'apparence inhabituelle que l'on trouve surtout dans le
 
 Près de son extrémité, l'axone se détache en de nombreuses branches appelées **télodendries**, et à l'extrémité de ces branches se trouvent de minuscules structures appelées **bornes synaptiques** (ou simplement **synapses**), qui sont connectées à la dendrite ou aux corps d'autres neurones. Les neurones biologiques produisent de courtes impulsions électrique appelées **potentiels d'action** (PA, ou simplement des signaux) qui se déplacent le long des axones et font en sorte que les synapses émettent des signaux chimiques appelés neurotransmetteurs. **Quand un neurone reçoit une quantité suffisante de ces neurotransmetteurs en quelques millisecondes, il envoie ses propres impulsions électriques** (en fait, cela dépend des neurotransmetteurs, car certains d'entre eux empêchent le neurone de s'activer).
 
-![Screenshot](images/1117px-Blausen_0657_MultipolarNeuron.png)
+![Screenshot](images/image_module1/1117px-Blausen_0657_MultipolarNeuron.png)
 
 
 Ainsi, les neurones biologiques individuels semblent se comporter de manière assez simple, mais **ils sont organisés en un vaste réseau de plusieurs milliards**, chaque neurone étant généralement connecté à des milliers d'autres neurones. Des calculs très complexes peuvent être effectués par un réseau de neurones assez simples, de la même façon que d'une fourmilière peut émerger les efforts combinés de simples fourmis. L'architecture des réseaux neuronaux biologiques (BNN) fait toujours l'objet de recherches actives, mais certaines parties du cerveau ont été cartographiées et il semble que les neurones sont souvent organisés en couches consécutives, spécialement dans le **cortex cérébral** (la couche externe de votre cerveau).
@@ -79,7 +79,7 @@ avec
 
 ![Screenshot](images/image_module1/heaviside.svg)
 
-!!! info "Remarque"
+!!! Note "Définition"
 
     Un neurone de McCulloch-Pitts est donné par :
 
@@ -93,7 +93,7 @@ avec
 
     où $H$ est la fonction de Heaviside, et $\vartheta$ est le seuil.
 
-    On dit que le neurone s'active si $\sum_{i=1}^{m} x_{i} - \vartheta > 0$.
+    On dit que le neurone s'active si $\sum_{i=1}^{m} x_{i} - \vartheta \geq 0$.
 
 
 Le neurone tel que défini par McCulloch et Pitts est considéré comme **une simple porte logique** : il n'y a pas d'algorithme associé afin de l'entraîner. Ils montrèrent cependant qu'un réseau constitué des neurones formels de leur invention a la même puissance de calcul qu'une machine de Turing, ie ce réseau est capable de calculer toutes les propositions logiques.
@@ -551,8 +551,7 @@ Calculer ce gradient se fait alors via l'algorithme dit **d'auto-différentiatio
 
     On souhaite calculer sa dérivé, son graphe de calcul est alors le suivant.
 
-    .. figure :: image_module1/autodiff_final.svg
-        :align: center
+    ![Screenshot](images/image_module1/autodiff_final.svg)
 
     L'algorithme d'auto-différentiation prend alors la forme suivante.
 

@@ -8,4 +8,5 @@
 <p align="center">
   <a href="https://iotcluster.fr/"><img src="https://iotcluster.fr/wp-content/uploads/2020/07/Icone_A.png" alt="CITC2"></a>
 </p>
-La formation est une formation au **deep learning** axé **Computer Vision**.
+
+La formation est une formation au **deep learning** axée **Computer Vision**.
